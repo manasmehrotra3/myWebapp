@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = {
-	db: process.env.MONGOHQ_URL || process.env.MONGOLAB_URI || 'mongodb://' + (process.env.DB_1_PORT_27017_TCP_ADDR || 'localhost') + '/manaswebapp',
+	db: 'mongodb://heroku_7486xhlq:qhvqvl5dlu7cmtubshnb8pn5ha@ds011902.mlab.com:11902/heroku_7486xhlq',
 	assets: {
 		lib: {
 			css: [

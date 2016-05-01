@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = {
-	db: 'mongodb://localhost/mywebapp-dev',
+	db: 'mongodb://heroku_7486xhlq:qhvqvl5dlu7cmtubshnb8pn5ha@ds011902.mlab.com:11902/heroku_7486xhlq',
 	app: {
 		title: 'myWebapp - Development Environment'
 	},
