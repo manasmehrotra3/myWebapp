@@ -6,7 +6,7 @@ module.exports = {
 		description: 'My persoanl web application',
 		keywords: 'manas, mehrotra, manas mehrotra, manasmehrotra'
 	},
-	port: process.env.PORT || 8080,
+	port: process.env.PORT || 9000,
 	templateEngine: 'swig',
 	sessionSecret: 'MEAN',
 	sessionCollection: 'sessions',
