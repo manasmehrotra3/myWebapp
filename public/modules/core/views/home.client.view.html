@@ -1,9 +1,23 @@
 <section data-ng-controller="HomeController">
-	<h1 align="center">You have reached a dark corner on the internet</h1>
+	<h1 align="center" tabindex="0" id="homePageHeading">You have reached a dark corner on the internet</h1>
 
-	<div class="row homePageContent">
-		<p>This app is built using MEAN Stack, just to load these few paragraphs.</p>
+	<div class="row homePageContent" tabindex="0" aria-describedby="">
+		<p id="myIntro">I am Manas Mehrotra. I usually create web applications which are simple and easy to use.</p>
 
-		<p>Anyways, this is one of the most performance efficient apps i have ever made. No images FTW!!!</p>
+		<p id="stackInfo">This app is built using MEAN Stack, just to load these few paragraphs.</p>
+	</div>
+
+	<div class="row mt-10">
+		<p id="contactMeInfo" id="contactParagraph" aria-label="Contact me on following social mediums"> Contact: 
+			<a id="contactEmail" href="mailto:manasmehrotra3@gmail.com">Email</a> &nbsp;| &nbsp;
+			<a id="contactLinkedIn" href="https://www.linkedin.com/in/manas-mehrotra-6655896a" target="_blank">LinkedIn</a> &nbsp;| &nbsp;
+			<a id="contactTwitter" href="https://twitter.com/manasmehrotra">Twitter</a> &nbsp;| &nbsp;
+			<a id="contactFacebook" href="https://www.facebook.com/manas.mehrotra">Facebook</a> &nbsp;| &nbsp;
+			<a id="contactInstagram" href="https://www.instagram.com/manasmehrotra/">Instagram</a> &nbsp;| &nbsp;
+		</p>
+	</div>
+
+	<div class="row mt-10" tabindex="0" aria-describedby="accessibilityInfo">
+		<p id="accessibilityInfo">Web Content Accessibility Guidelines (WCAG) 2.0 compliant.
 	</div>
 </section>

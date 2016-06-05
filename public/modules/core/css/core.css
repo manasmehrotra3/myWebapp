@@ -1,5 +1,6 @@
 .content {
 	margin-top: 50px;
+	font-size: 20px;
 }
 .undecorated-link:hover {
 	text-decoration: none;
@@ -15,4 +16,11 @@
 }
 .homePageContent {
 	margin-top: 50px;
+}
+.mt-10 {
+	margin-top: 10px;
+}
+.row {
+    margin-right: 0;
+    margin-left: 0;
 }
